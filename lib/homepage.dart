@@ -304,7 +304,7 @@ class _HomePageState extends State<HomePage> {
             /// INFO:kalau path file ada → tampilkan dari galeri/kamera
             imageProvider = FileImage(File(item.imagePath));
           } else {
-            imageProvider = AssetImage(item.imagePath);
+            imageProvider = AssetImage(item.imagePath); hbjbjhbj
           }
           return ListTile(
             leading: CircleAvatar(backgroundImage: imageProvider),
